@@ -1,0 +1,17 @@
+/*
+Theme Name: n-koshu
+Theme URI: https://example.com/my-custom-theme
+Author: suzuki
+Author URI: https://example.com
+Description: A simple custom WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-custom-theme
+*/
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}

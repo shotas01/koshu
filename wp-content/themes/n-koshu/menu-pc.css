@@ -1,0 +1,31 @@
+/* PC用メニューのスタイル */
+.menu-pc {
+    position: fixed; /* 画面左に固定 */
+    top: 50px; /* 画面上部からの距離（調整可能） */
+    left: 20px; /* 画面左からの距離（調整可能） */
+    font-weight: bold; /* 太文字 */
+    line-height: 1.8; /* 行間を広めに設定 */
+    color: white; /* 白文字 */
+    z-index: 1000; /* 他の要素よりも前面に表示 */
+}
+
+
+/* メニュー項目のスタイル */
+.menu-pc-items {
+    list-style: none; /* リストスタイルを削除 */
+    padding: 0;
+    margin: 0;
+}
+
+/* メニューリンクのスタイル */
+.menu-pc-items li a {
+    color: white; /* リンクの文字を白色に設定 */
+    text-decoration: none; /* リンクの下線を削除 */
+}
+
+/* スマホ画面でメニューを非表示 */
+@media (max-width: 768px) { /* スクリーン幅768px以下で適用 */
+    .menu-pc {
+        display: none; /* 非表示 */
+    }
+}
